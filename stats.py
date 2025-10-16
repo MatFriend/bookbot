@@ -8,7 +8,3 @@ def total_chars(book_text):
     for char in book_text:
         char_count[char] = char_count.get(char, 0) + 1
     return(char_count)
-
-def report(dictionary):
-    dictionary.sort(reverse=true, key=sort_on)
-
